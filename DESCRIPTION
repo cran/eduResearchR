@@ -1,0 +1,82 @@
+Package: eduResearchR
+Type: Package
+Title: A Collection of Educational Datasets for Research and
+        Statistical Analysis
+Version: 0.1.0
+Authors@R: c(
+    person(
+        given = "Jorge Luis",
+        family = "Marmanillo Santana",
+        email = "jlmarmanillo@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0009-0003-4485-0744")
+    ),
+    person(
+        given = "Christian",
+        family = "Kleiber",
+        role = "ctb",
+        comment = "Author of the AER package; original source for CASchools and CollegeDistance."
+    ),
+    person(
+        given = "John",
+        family = "Fox",
+        role = "ctb",
+        comment = "Author of the carData package; original source for EducationLiteracy, ExamScores, and FirstYearGPA."
+    ),
+    person(
+        given = "Douglas",
+        family = "Bates",
+        role = "ctb",
+        comment = "Author of the MEMSS package; original source for MathAchieve."
+    ),
+    person(
+        given = "Thomas",
+        family = "Lumley",
+        role = "ctb",
+        comment = "Author of the survey package; original source for apipop."
+    ),
+    person(
+        given = "Jeremy",
+        family = "Finn",
+        role = "ctb",
+        comment = "Principal investigator; original source for STARplus (Project STAR)."
+    ),
+    person(
+        given = "Andrew",
+        family = "Raudenbush",
+        role = "ctb",
+        comment = "Researcher; original source for the classroom dataset."
+    )
+  )
+Maintainer: Jorge Luis Marmanillo Santana <jlmarmanillo@gmail.com>
+Description: Curates a comprehensive and robust collection of 15 classic educational, economic, and social science datasets meticulously tailored for empirical research, project-based learning, and academic instruction in higher education. It streamlines exploratory data analysis, business intelligence modeling, regression techniques, and hypothesis testing by providing ready-to-use data structures sourced from prominent community packages (Kleiber and Zeileis (2008) <https://CRAN.R-project.org/package=AER>; Fox and Weisberg (2019) <https://CRAN.R-project.org/package=carData>).
+License: GPL-3
+Language: en
+URL: https://github.com/jlmarmanillo-jlms/eduResearchR
+BugReports: https://github.com/jlmarmanillo-jlms/eduResearchR/issues
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports:
+Suggests: ggplot2, testthat (>= 3.0.0), dplyr, knitr, rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-09-23 05:03:39 UTC; jlmar
+Author: Jorge Luis Marmanillo Santana [aut, cre] (ORCID:
+    <https://orcid.org/0009-0003-4485-0744>),
+  Christian Kleiber [ctb] (Author of the AER package; original source for
+    CASchools and CollegeDistance.),
+  John Fox [ctb] (Author of the carData package; original source for
+    EducationLiteracy, ExamScores, and FirstYearGPA.),
+  Douglas Bates [ctb] (Author of the MEMSS package; original source for
+    MathAchieve.),
+  Thomas Lumley [ctb] (Author of the survey package; original source for
+    apipop.),
+  Jeremy Finn [ctb] (Principal investigator; original source for STARplus
+    (Project STAR).),
+  Andrew Raudenbush [ctb] (Researcher; original source for the classroom
+    dataset.)
+Repository: CRAN
+Date/Publication: 2026-10-02 11:50:09 UTC
